@@ -431,3 +431,11 @@ export namespace Props {
     soundcite?: boolean
   }
 }
+
+export type Data = Props.Data
+export type Options = Props.Options
+export type Text = Props.Text
+export type Media = Props.Media
+export type Era = Props.Era
+export type Slide = Props.Slide
+export type Date = Props.Date
