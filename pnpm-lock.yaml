@@ -4,55 +4,52 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
-
-  .:
-    devDependencies:
-      '@antfu/eslint-config':
-        specifier: ^0.39.4
-        version: 0.39.4(eslint@8.41.0)(typescript@5.0.4)
-      '@antfu/ni':
-        specifier: ^0.21.3
-        version: 0.21.3
-      '@antfu/utils':
-        specifier: ^0.7.4
-        version: 0.7.4
-      '@types/node':
-        specifier: ^18.16.16
-        version: 18.16.16
-      bumpp:
-        specifier: ^9.1.0
-        version: 9.1.0
-      eslint:
-        specifier: ^8.41.0
-        version: 8.41.0
-      esno:
-        specifier: ^0.16.3
-        version: 0.16.3
-      lint-staged:
-        specifier: ^13.2.2
-        version: 13.2.2
-      pnpm:
-        specifier: ^8.6.0
-        version: 8.6.0
-      rimraf:
-        specifier: ^5.0.1
-        version: 5.0.1
-      simple-git-hooks:
-        specifier: ^2.8.1
-        version: 2.8.1
-      typescript:
-        specifier: ^5.0.4
-        version: 5.0.4
-      unbuild:
-        specifier: ^1.2.1
-        version: 1.2.1
-      vite:
-        specifier: ^4.3.9
-        version: 4.3.9(@types/node@18.16.16)
-      vitest:
-        specifier: ^0.31.3
-        version: 0.31.3
+devDependencies:
+  '@antfu/eslint-config':
+    specifier: ^0.39.4
+    version: 0.39.4(eslint@8.41.0)(typescript@5.0.4)
+  '@antfu/ni':
+    specifier: ^0.21.3
+    version: 0.21.3
+  '@antfu/utils':
+    specifier: ^0.7.4
+    version: 0.7.4
+  '@types/node':
+    specifier: ^18.16.16
+    version: 18.16.16
+  bumpp:
+    specifier: ^9.1.0
+    version: 9.1.0
+  eslint:
+    specifier: ^8.41.0
+    version: 8.41.0
+  esno:
+    specifier: ^0.16.3
+    version: 0.16.3
+  lint-staged:
+    specifier: ^13.2.2
+    version: 13.2.2
+  pnpm:
+    specifier: ^8.6.8
+    version: 8.6.8
+  rimraf:
+    specifier: ^5.0.1
+    version: 5.0.1
+  simple-git-hooks:
+    specifier: ^2.8.1
+    version: 2.8.1
+  typescript:
+    specifier: ^5.0.4
+    version: 5.0.4
+  unbuild:
+    specifier: ^1.2.1
+    version: 1.2.1
+  vite:
+    specifier: ^4.3.9
+    version: 4.3.9(@types/node@18.16.16)
+  vitest:
+    specifier: ^0.31.3
+    version: 0.31.3
 
 packages:
 
@@ -3591,8 +3588,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm@8.6.0:
-    resolution: {integrity: sha512-uMaWGXlvG+m5NIJaR4JEEenChbg+1AP4zVpqs4PEcZg4uH+lXMTd/X/lirKZA+TC0w0d+++y3btINcwyKsuwAA==}
+  /pnpm@8.6.8:
+    resolution: {integrity: sha512-OtrCRUE7VqRyKly9E3gfExZHOAHtFDpmulyVFKrnl3v/n2xJckdueVumWJqUA5FHxcRP/T42r8P8CDr9duPP9w==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
